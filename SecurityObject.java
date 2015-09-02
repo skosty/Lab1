@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//package security1;
-
-/**
- *
- * 
- */
 public class SecurityObject {
   
   String name = null;
@@ -29,6 +19,5 @@ public class SecurityObject {
   public void setVal(int _val){
     this.val = _val;
   }
-  
   
 }
