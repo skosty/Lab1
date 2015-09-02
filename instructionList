@@ -1,0 +1,15 @@
+WRITE Lyle LObj 3
+WRITE Lyle HObj 5
+READ Hal HObj
+READ Lyle LObj
+READ Lyle HObj
+WRITE Hal LObj 2
+WRIT Hal HObj 1
+RED Lyle LObj
+READ Lyle LObj
+WRITE Hal HObj 7
+WRITE Lyle LObj 7.5
+WRITE Hal HOBJ 
+WRITE HAL HOBj 9
+WritE LyLE lObj 19
+WritE LyLE lObj 
