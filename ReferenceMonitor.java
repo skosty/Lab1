@@ -1,18 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//package security1;
-
-
 import java.util.HashMap;
 import java.util.Map;
 
-
-/**
- *
- * 
- */
 public class ReferenceMonitor {
 
   static Map<SecuritySubject, SecurityLevel> Sub = new HashMap<SecuritySubject, SecurityLevel>();
