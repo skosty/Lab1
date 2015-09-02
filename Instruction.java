@@ -1,16 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//package security1;
-
 import java.util.List;
 import java.util.StringTokenizer;
 
-/**
- *
- * 
- */
 public class Instruction {
 
   public static final Instruction BadInstruction = new Instruction("BadInstruction", null, null); 
@@ -42,9 +32,5 @@ public class Instruction {
     if(this.type.equalsIgnoreCase("write")) System.out.print(" " + parameter);
     System.out.println("");
   }
-  
-  
-  
-  
   
 }
