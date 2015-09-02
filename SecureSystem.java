@@ -1,10 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//package security1;
-
-
 import java.util.StringTokenizer;
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,20 +7,12 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-
-/**
- *
- * 
- */
 public class SecureSystem {
   
   static Map<SecuritySubject, String> SubMap = new HashMap<SecuritySubject, String>(); 
   static Map<SecurityObject, String> ObjMap = new HashMap<SecurityObject, String>();
   private static ReferenceMonitor rm = new ReferenceMonitor();
   
-  /**
-   * @param args the command line arguments
-   */
   public static void main(String[] args) {
     
     
@@ -167,7 +152,5 @@ public class SecureSystem {
     
     return inst;
   } // end parseCommand
-  
-  
   
 }
